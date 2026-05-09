@@ -17,6 +17,13 @@
       "email": "bas",
       "password": "147258369",
       "id": "3EW_aozhspg"
+    },
+    {
+      "name": "adnan",
+      "email": "adnan@gmail.com",
+      "password": "147258369",
+      "confirmPassword": "147258369",
+      "id": "kzKZM33VmNU"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
