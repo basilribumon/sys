@@ -31,10 +31,10 @@ function Register() {
   const handleSubmit = async () => {
 
     if (
-      !user.name.trim() ||
-      !user.email.trim() ||
-      !user.password.trim() ||
-      !user.confirmPassword.trim()
+      !user.name ||
+      !user.email ||
+      !user.password ||
+      !user.confirmPassword
     ) {
       alert("All fields required");
       return;

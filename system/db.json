@@ -24,6 +24,13 @@
       "password": "147258369",
       "confirmPassword": "147258369",
       "id": "kzKZM33VmNU"
+    },
+    {
+      "name": "b",
+      "email": "b@gmail.com",
+      "password": "147258369",
+      "confirmPassword": "147258369",
+      "id": "edJuRHO0wMM"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
