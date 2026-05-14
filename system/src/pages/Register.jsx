@@ -29,12 +29,15 @@ function Register() {
   };
 
   const handleSubmit = async () => {
-
+       if(!user.name.trim()){
+      alert("Name is required")
+      return;
+    }
     if (
-      !user.name ||
-      !user.email ||
-      !user.password ||
-      !user.confirmPassword
+      !user.name.trim() ||
+      !user.email.trim() ||
+      !user.password .trim()||
+      !user.confirmPassword.trim()
     ) {
       alert("All fields required");
       return;
@@ -49,6 +52,8 @@ function Register() {
       alert("Passwords do not match");
       return;
     }
+
+ 
 
     await axios.post("http://localhost:3000/users", user);
 
